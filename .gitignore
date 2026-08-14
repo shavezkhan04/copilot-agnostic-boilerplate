@@ -1,0 +1,61 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+vendor/
+.terraform/
+
+# Build and output artifacts
+build/
+dist/
+out/
+coverage/
+*.log
+logs/
+*.pid
+*.tmp
+*.temp
+
+# Language/IDE artifacts
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager lockfiles
+# Uncomment if you want to track them selectively.
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Test reports
+.junit/
+htmlcov/
+
+# Secrets and certificates
+*.pem
+*.key
+*.crt
+*.cer
+
+# Archives
+*.zip
+*.tar
+*.gz
